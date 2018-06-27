@@ -2,7 +2,7 @@
 # Monocular visual Odometry C++
 
 <p align="center">
-  <img src="doc/monovo.png" width="750px" height="300px"/>
+  <img src="doc/monovo.png" height="600px"/>
 </p>
 
 
@@ -53,10 +53,12 @@ To see the FAST features visualized
 </p>
 
 
-
 ## TODOs
 
 1. fix to work with any given sequence in the kitti dataset.
 2. figure out a better way to estimate scale (perhaps use lidar!)
 3. better document the code
 4. DRY the code up.
+
+## Credit
+Major S/O to a blog http://avisingh599.github.io/vision/monocular-vo/ that gave the inspiration and a good starting point. Go read his blog to get a better understanding of the basics. :)
